@@ -1,0 +1,116 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        .heading {
+            text-align: center;
+            color: #5b5b5b;
+            text-shadow: 1px 2px 15px #9a9eda;
+        }
+        
+        .container {
+            position: relative;
+            margin: auto;
+            margin-top: 7rem;
+            display: flex;
+            flex-direction: column;
+            max-width: 560px;
+            background-color: wheat;
+            padding: 1rem;
+            border-radius: 4px;
+            height: 500px;
+            box-shadow: 3px 5px 15px #c2c2c2;
+        }
+        
+        nav {
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #scheme {
+            padding: 10px;
+            height: 42px;
+            width: 400px;
+            background: #FFFFFF;
+            /* gray/300 */
+            border: 1px solid #D1D5DB;
+            /* shadow/sm */
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        
+        option {
+            border: none;
+            background: #FFFFFF;
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+        
+        input {
+            margin-right: 2px;
+            border: none;
+            width: 61px;
+            height: 42px;
+        }
+        
+        .light {
+            color: white;
+        }
+        
+        .dark {
+            color: black;
+        }
+        
+        #app {
+            display: flex;
+            height: 550px;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #app>.color-pallets {
+            box-sizing: border-box;
+            display: flex;
+            padding: 1.4em;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        #app>.color-pallets:hover {
+            height: 90%;
+        }
+        
+        .alert {
+            position: absolute;
+            width: 250px;
+            top: 10px;
+            background-color: #ffdb9b;
+            padding: 20px 40px;
+            min-width: 40px;
+            border-radius: 4px;
+            border-left: 8px solid #ffa602e9;
+            color: black;
+            font-weight: 600;
+        }
+        
+        @media (max-width:630px) {
+            .container {
+                margin: auto;
+                box-sizing: border-box;
+                min-width: calc(50vw - 40%);
+                width: fit-content;
+            }
+            #app>.color-pallets {
+                display: flex;
+                padding: 5px;
+                font-size: 12px;
+                min-width: calc(35vw - 110px);
+            }
+            #scheme {
+                width: fit-content;
+            }
+        }

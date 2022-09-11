@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+
+    <title>Color Scheme Gernator</title>
+</head>
+
+<body>
+    <h1 class="heading">COLOR SCHEME GENATOR</h1>
+    <div class="container">
+        <nav>
+
+            <input type="color" id="color-picker">
+            <select name="scheme" id="scheme">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="quad">Quad</option>
+                <option value="triad">Triad </option>
+                <option value="analogic-complement">analogic-complement </option>
+                <option value="complement">Complement </option>
+            </select>
+        </nav>
+        <div id="app">
+        </div>
+        <div class="alert" id="notify"></div>
+
+
+    </div>
+</body>
+
+</html>
