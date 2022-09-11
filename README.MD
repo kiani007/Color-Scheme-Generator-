@@ -16,6 +16,7 @@ here is the project web view https://color-scheme-gernator-app.netlify.app/
 
 👍    
 
+![image](https://user-images.githubusercontent.com/37160333/189549363-71743374-804e-4492-870e-3938a40b6179.png)
 
 
 
