@@ -1,4 +1,4 @@
-# Color Scheme Gernator 
+# Color Scheme Generator  
 
 # Introduction:
 
