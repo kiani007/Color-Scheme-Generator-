@@ -11,7 +11,7 @@ The main goal of this project is to involve myself with Restfull Api's, We can G
  In the above url we have provided Color, mode, and count to the api and in result we can get many information and usually a color schem in different 5 arrays with all of the colors
  
  
-here is the project web view https://color-scheme-generator-app.netlify.app/
+here is the project web view https://color-scheme-gernerator-app.netlify.app/
 
 
 👍    
